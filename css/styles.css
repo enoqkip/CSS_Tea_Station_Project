@@ -9,6 +9,14 @@ fonts
 faster development
 reusable */
 
+.btn {
+  text-transform: uppercase;
+  background: red;
+  color: var(--clr-white);
+  padding: 0.75rem 2rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 /*
 ===============================
 variables
@@ -116,7 +124,6 @@ variables
   position: absolute;
   top: 50%;
   left: 50%;
-  background: rgb(72, 68, 68);
   transform: translate(-50%, -50%);
 }
 .banner h2 {
@@ -129,8 +136,6 @@ variables
   text-transform: uppercase;
   color: var(--clr-white);
   margin-top: 1.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   /* animation  */
-}
-.btn {
 }
