@@ -104,3 +104,7 @@ p {
 variables
 ===============================
 */
+.header {
+  min-height: 100vh;
+  background: url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+}
