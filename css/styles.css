@@ -156,4 +156,6 @@ variables
 .banner-btn {
   outline: 0.124rem solid var(--clr-primary);
   outline-offset: 0.25rem;
+  font-size: 1.25rem;
+  padding: 1rem 1.75rem;
 }
