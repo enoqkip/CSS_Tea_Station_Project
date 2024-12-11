@@ -128,7 +128,8 @@ variables
 */
 .header {
   min-height: 100vh;
-  background: url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(126, 54, 54, 0.65), rgba(11, 3, 3, 0.65)),
+    url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
   position: relative;
   overflow-x: hidden;
   position: relative;
