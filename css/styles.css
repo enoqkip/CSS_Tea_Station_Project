@@ -31,6 +31,12 @@ reusable */
   color: var(--clr-primary);
   background: var(--clr-primary-light);
 }
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*
 ===============================
 variables
