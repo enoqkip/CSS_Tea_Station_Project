@@ -37,6 +37,26 @@ reusable */
   clear: both;
   display: table;
 }
+.section-title h3 {
+  font-family: var(--ff-secondary);
+  color: var(--clr-primary);
+}
+.section-title {
+  margin-bottom: 2rem;
+}
+.section-center {
+  padding: 4rem 0;
+  width: 85vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+@media screen and (min-wdth: 992px) {
+  .section-center {
+    width: 95vw;
+    padding: 4rem 1rem;
+  }
+}
+
 /*
 ===============================
 variables
@@ -219,3 +239,9 @@ variables
     width: 25%;
   }
 }
+
+/*
+===============================
+About
+===============================
+*/
