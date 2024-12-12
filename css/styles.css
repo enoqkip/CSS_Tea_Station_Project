@@ -177,7 +177,6 @@ variables
 }
 .skills {
   background: var(--clr-grey-10);
-  height: 25rem;
 }
 .skill {
   padding: 2.5rem;
@@ -190,4 +189,12 @@ variables
   transition: var(--transition);
   display: inline-block;
   color: var(--clr-primary);
+}
+.skill-text {
+  color: var(--clr-grey-5);
+  max-width: 17rem;
+  margin: 0 auto;
+}
+.skill:hover {
+  background: var(--clr-white);
 }
