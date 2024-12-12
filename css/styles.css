@@ -170,3 +170,7 @@ variables
     var(--clr-primary)
   );
 }
+.skills {
+  background: var(--clr-grey-10);
+  height: 10rem;
+}
